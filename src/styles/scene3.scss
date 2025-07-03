@@ -1,0 +1,12 @@
+.scene3 {
+  display: none;
+  height: 100vh;
+  justify-content: start;
+  align-items: flex-start;
+
+  &-video {
+    @include onDesktop {
+      height: 400px;
+    }
+  }
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image" href="/public/assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/main.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Bam Shoes Add</title>
+  </head>
+  <body>
+    <div id="orientation-lock">
+      Please rotate your device to portrait orientation for the best experience.
+    </div>
+
+    <main id="main">
+      <section class="scene1">
+        <div class="scene1-title">
+          <p class="scene1-title-word scene1-title-word--1">Shoes</p>
+          <p class="scene1-title-word scene1-title-word--2">Sale</p>
+          <p class="scene1-title-word scene1-title-word--3">At</p>
+          <p class="scene1-title-word scene1-title-word--4">Bam</p>
+        </div>
+
+        <img
+          class="scene1-headline"
+          src="./public/assets/headline.png"
+          alt="headline"
+        />
+
+        <div class="scene1-bubble">
+          <img
+            class="scene1-bubble-img scene1-bubble-img--shoe1"
+            src="./public/assets/shoe1.png"
+            alt="shoe1"
+          />
+          <img
+            class="scene1-bubble-img scene1-bubble-img--shoe2"
+            src="./public/assets/shoe2.png"
+            alt="shoe2"
+          />
+          <img
+            class="scene1-bubble-img scene1-bubble-img--shoe3"
+            src="./public/assets/shoe4.png"
+            alt="shoe3"
+          />
+          <img
+            class="scene1-bubble-img scene1-bubble-img--shoe4"
+            src="./public/assets/shoe3.png"
+            alt="shoe4"
+          />
+        </div>
+      </section>
+
+      <section class="scene2">
+        <h1 class="scene2-title">Check Out New Collection!</h1>
+
+        <div class="swiper gallery-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./public/assets/shoe1.png" alt="shoe1" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./public/assets/shoe2.png" alt="shoe2" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./public/assets/shoe3.png" alt="shoe3" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./public/assets/shoe4.png" alt="shoe4" />
+            </div>
+          </div>
+        </div>
+
+        <button class="scene2-button">
+          <img
+            src="./public/assets/cta.png"
+            alt="buttonCTA"
+            class="scene2-button-img"
+          />
+        </button>
+      </section>
+
+      <section class="scene3">
+        <div class="scene3-container">
+          <video loop controls class="scene3-video">
+            <source src="./public/assets/video.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="./src/js/main"></script>
+  </body>
+</html>

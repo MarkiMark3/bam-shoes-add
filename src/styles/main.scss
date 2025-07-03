@@ -1,0 +1,35 @@
+@import "./scene1.scss";
+@import "./scene2.scss";
+@import "./scene3.scss";
+
+body {
+  margin: 0;
+  font-family: "Sour Gummy", sans-serif;
+}
+
+#main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../public/assets/bg.jpg");
+  background-size: cover;
+  background-position: left;
+  transform-origin: center;
+  transform: scale(1);
+  opacity: 1;
+  overflow: hidden;
+}
+
+#orientation-lock {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: #000a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
